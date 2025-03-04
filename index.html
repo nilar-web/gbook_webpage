@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>G. Book</title>
+
+        <link
+            rel="shortcut icon" href="images/book-logo-3.png"
+            type="image/x-icon" />
+
+        <!-- bootstrap css cdn -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+            rel="stylesheet">
+
+        <!-- font awesome cdn css -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+
+        <!-- style.css -->
+        <link
+            rel="stylesheet"
+            href="style.css" />
+
+    </head>
+    <body>
+
+        <!-- header section -->
+        <header id="header">
+            <h1 class="header-font text-secondary">Welcome to
+                <br><span>G. Book</span>
+            </h1>
+            <img src="images/icon-1.png" height="50px">
+            <img src="images/book-logo-3.png" height="30px">
+            <p class="body-font text-secondary">
+                Reading Books and literature enriches knowledge, enhances mental
+                development,stimulates imagination, and fosters wisdom.
+            </p>
+            <div class="check-box">
+                <a class="btn btn-outline-secondary" href="#"
+                    role="button">Read More</a>
+            </div>
+        </header>
+
+        <!-- nav section -->
+        <section id="nav">
+            <nav class="bg-navbar">
+                <input type="checkbox" class="checkbox" id="check">
+                <div class="nav_head">
+                    <a href="#" class="logo">
+                        <img
+                            src="images/book-logo-3.png"
+                            height="30px">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#newbooks">New Books</a></li>
+                    <li><a href="#book">Book</a></li>
+                    <li><a href="#ebook">Ebook</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <!-- /* responsive navbar */ -->
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <label for="check" class="check-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+                    <a href="#login" class="btn login_btn ms-2" tabindex="-1"
+                        role="button" aria="true">Login</a>
+                    <a href="signup.html" class="btn signup_btn ms-2"
+                        tabindex="-1"
+                        role="button" aria="true"> Sign Up</a>
+                    <label for="check" class="check-btn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                </div>
+            </nav>
+
+        </section>
+
+        <!-- home section -->
+        <section id="home" class="home-section mb-3">
+
+            <div class="container p-3 mb-1 mx-auto">
+                <div class="row">
+                    <div class="col-sm-5 col-md-8">
+
+                        <div class="home-image mx-auto mb-1">
+                            <div id="carouselExampleCaptions mx-auto mb-1"
+                                class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="0" class="active"
+                                        aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button"
+                                        data-bs-target="#carouselExampleCaptions"
+                                        data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/main-1.jpg"
+                                            class="d-block w-100"
+                                            alt="...">
+                                        <div
+                                            class="carousel-caption d-none d-md-block">
+                                            <h5>Welcome to G. Book</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/main-2.jpg"
+                                            class="d-block w-100"
+                                            alt="...">
+                                        <div
+                                            class="carousel-caption d-none d-md-block">
+                                            <h5>Welcome to book collect.</h5>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/main-3.jpg"
+                                            class="d-block w-100">
+                                        <div
+                                            class="carousel-caption d-none d-md-block">
+                                            <h5>Welcome to book club.</h5>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="carousel-control-prev"
+                                    type="button"
+                                    data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"
+                                        aria-hidden="true"></span>
+                                    <span
+                                        class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next"
+                                    type="button"
+                                    data-bs-target="#carouselExampleCaptions"
+                                    data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"
+                                        aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home-slide col-sm-5 col-md-4 p-1">
+                        <h1>WELCOME TO <br><span class="ms-2">GENIUS
+                                BOOK</span></h1>
+                        <p class="ms-2 p-2 text-success mb-1"
+                            style="text-align: justify;">
+                            The thunderbolt sky was calm under the gray
+                            cover.Just when human tears soaked the
+                            earth,the
+                            jade stone in my hand suddenly flashed. <br>
+                            It was... the key that would change the
+                            world
+                        </p> <br><br>
+                        <div class="text-center font ms-2 p-2 mb-1">
+                            <i
+                                class="fa-brands fa-twitter ms-2 p-2 bg-primary rounded-3"></i>
+                            <i
+                                class="fa-brands fa-instagram ms-2 p-2 bg-danger rounded-3"></i>
+                            <i
+                                class="fa-brands fa-facebook-f ms-2 p-2 bg-primary rounded-circle"></i>
+                            <i
+                                class="fa-brands fa-linkedin-in ms-2 p-2 bg-info rounded-3"></i>
+                            <i
+                                class="fas fa-phone ms-2 p-2 bg-success rounded-3"></i>
+                        </div>
+                        <a href="#"
+                            class="btn btn-outline-secondary p-2 w-40 text-decoration-none mb-1">Book
+                            More
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- new book section -->
+        <section id="newbooks" class="new-section">
+
+            <div class="new_books mx-auto mb-1">
+                <h1>NEW BOOKS</h1>
+                <p class="mb-3 ms-2 text-success p-2">Reading Books and
+                    literature enriches
+                    knowledge,
+                    enhances
+                    mental development,stimulates imagination, and fosters
+                    wisdom.
+                </p>
+                <div class="slider">
+                    <div class="slide-track">
+
+                        <div class="slide-item">
+                            <img src="images/new (1).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (2).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (3).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (4).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (5).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (6).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (7).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (8).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (9).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (10).jpg">
+                        </div>
+
+                        <div class="slide-item">
+                            <img src="images/new (1).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (2).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (3).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (4).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (5).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (6).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (7).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (8).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (9).jpg">
+                        </div>
+                        <div class="slide-item">
+                            <img src="images/new (10).jpg">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- book section -->
+        <section id="book">
+            <div class="card-book mx-auto p-3 mb-3">
+                <h1>BOOK CATEGORIES</h1>
+
+                <div class="row g-1">
+                    <div class="card col-ms-2">
+                        <img src="images/aa1.jpeg" alt>
+                        <div class="info">
+                            <h3>Steve Jobs</h3>
+                            <p>Steve Jobs: The Exclusive Biography</p>
+                            <a href="#" class="btn">Read in Myanmar</a> <br><br>
+                            <a href="#" class="btn">Read in English</a>
+                        </div>
+                    </div>
+                    <div class="card col-ms-2">
+                        <img src="images/aa2.jpeg" alt>
+                        <div class="info">
+                            <h3>Bill Gates</h3>
+                            <p>The Biography of Bill Gates:Secrets Behind the
+                                Success of the Microsoft
+                                Billionaire
+                            </p>
+                            <a href="#" class="btn">Read in Myanmar</a> <br><br>
+                            <a href="#" class="btn">Read in English</a>
+                        </div>
+                    </div>
+                    <div class="card col-ms-2">
+                        <img src="images/a1.webp" alt>
+                        <div class="info">
+                            <h3>ELON MUSK</h3>
+                            <p>Elon Musk: How the Billionaire CEO of
+                                SpaceX and
+                                Tesla is ...</p>
+                            <a href="#" class="btn">Read in Myanmar</a>
+                            <br><br>
+                            <a href="#" class="btn">Read in English</a>
+                        </div>
+                    </div>
+                    <div class="card col-ms-2">
+                        <img src="images/a1 (4).jpg" alt>
+                        <div class="info">
+                            <h3>A Promised Land</h3>
+                            <p>A riveting, deeply personal account of
+                                history in
+                                the making—from the president who
+                                inspired us to
+                                believe in the power of democracy</p>
+                            <a href="#" class="btn">Read in Myanmar</a>
+                            <br><br>
+                            <a href="#" class="btn">Read in English</a>
+                        </div>
+                    </div>
+                    <div class="card col-ms-2">
+                        <img src="images/a2.jpeg" alt>
+                        <div class="info">
+                            <h3>Alibaba: Jack Ma </h3>
+                            <p>Clark tells Alibaba's tale within the
+                                wider story
+                                of China's economic explosion—the
+                                rise...</p>
+                            <a href="#" class="btn">Read in
+                                Myanmar</a><br><br>
+                            <a href="#" class="btn">Read in English</a>
+                        </div>
+                    </div>
+                    <div class="card col-ms-2">
+                        <img src="images/michelle.jpeg" alt>
+                        <div class="info">
+                            <h3>Becoming</h3>
+                            <p>Melalui Becoming, sebuah memoar yang
+                                jujur dan
+                                berani, Michelle Obama menggugah kita
+                                untuk
+                                bertanya: Who are we and who do we want
+                                to
+                                become?</p>
+                            <a href="#" class="btn">Read in
+                                Myanmar</a><br><br>
+                            <a href="#" class="btn">Read in English</a>
+                        </div>
+                    </div>
+                    <div class="card col-ms-2">
+                        <img src="images/a3.jpeg" alt>
+                        <div class="info">
+                            <h3>Rich Dad, Poor Dad
+                            </h3>
+                            <p>What the Rich Teach Their Kids about
+                                Money that
+                                the Poor and Middle Class Do Not!</p>
+                            <a href="#" class="btn">Read in
+                                Myanmar</a><br><br>
+                            <a href="#" class="btn">Read in English</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ebook section -->
+        <section id="ebook">
+            <div class="container">
+                <h1>EBOOKS</h1>
+                <p>Reading Books and literature enriches knowledge,
+                    enhances
+                    mental development,stimulates imagination, and
+                    fosters
+                    wisdom.
+                </p>
+                <div class="wrapper">
+                    <div class="card_area">
+                        <div class="card p-2">
+                            <img src="images/ebook (1).jpeg">
+                            <div class="card_overlay">
+                                <h3>EBOOK</h3>
+                                <p>Welcome to G. Book</p>
+                                <a href="#"
+                                    class="ebook_btn">Downloads PDF</a>
+
+                            </div>
+                        </div>
+                        <div class="card p-2">
+                            <img src="images/ebook (2).jpeg">
+                            <div class="card_overlay">
+                                <h3>EBOOK</h3>
+                                <p>Welcome to G. Book</p>
+                                <a href="#"
+                                    class="ebook_btn">Downloads
+                                    PDF</a>
+                            </div>
+                        </div>
+                        <div class="card p-2">
+                            <img src="images/ebook (3).jpeg">
+                            <div class="card_overlay">
+                                <h3>EBOOK</h3>
+                                <p>Welcome to G. Book</p>
+                                <a href="#"
+                                    class="ebook_btn">Downloads
+                                    PDF</a>
+                            </div>
+                        </div>
+                        <div class="card p-2">
+                            <img src="images/ebook (4).jpeg">
+                            <div class="card_overlay">
+                                <h3>EBOOK</h3>
+                                <p>Welcome to G. Book</p>
+                                <a href="#"
+                                    class="ebook_btn">Downloads
+                                    PDF</a>
+                            </div>
+                        </div>
+                        <div class="card p-2">
+                            <img src="images/ebook (5).webp">
+                            <div class="card_overlay">
+                                <h3>EBOOK</h3>
+                                <p>Welcome to G. Book</p>
+                                <a href="#"
+                                    class="ebook_btn">Download
+                                    PDF</a>
+                            </div>
+                        </div>
+                        <div class="card p-2">
+                            <img src="images/ebook (6).jpeg">
+                            <div class="card_overlay">
+                                <h3>EBOOK</h3>
+                                <p>Welcome to G. Book</p>
+                                <a href="#"
+                                    class="ebook_btn">Download
+                                    PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about section -->
+
+        <section id="about">
+            <div class="about">
+                <div class="about_image">
+                    <img src="images/about.png">
+                </div>
+                <div class="about_tag">
+                    <h1>About Us</h1>
+                    <p>
+                        Knowledge acquisition is probably the top
+                        one.Books
+                        are
+                        a
+                        great source of information
+                        on any topic.Then there's the improvement of
+                        cognitive
+                        functions,like memory and focus.
+                        Reading regularly can help with that.
+                        Another point is vocabulary expansion.When you
+                        read
+                        ,especially diverse genres,you come
+                        across new words and phrases,which naturally
+                        enhances
+                        your
+                        language skills.Critical thinking
+                        is another aspect.Books,especially non-fiction
+                        or
+                        complex
+                        fiction,challenge you to analyze and
+                        reflect,improving your ability to think
+                        critically.
+                    </p>
+                    <a href="#" class="about_btn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section -->
+        <section id="contact">
+            <div class="form mx-auto p-3 mt-3">
+                <h1 class="mb-1">Contact <span>Me</span></h1>
+                <form action="#home">
+                    <input type="text" name="name" class="bg-light fs-6"
+                        placeholder="Enter Your Name"
+                        required><br>
+                    <input type="email" name="email"
+                        class="bg-light fs-6"
+                        placeholder="Enter Your email" required><br>
+                    <input type="text" name="phone-no"
+                        class="bg-light fs-6"
+                        placeholder="Enter Your Phone No." required><br>
+                    <textarea
+                        class="fs-6 shadow-lg  bg-body-tertiary rounded"
+                        name="msg" id="msg"
+                        rows="4" cols="20"
+                        placeholder="Enter Your Message">
+                    </textarea><br>
+                    <button class="form_btn text-secondary">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- login section -->
+        <section id="login">
+            <div
+                class="container d-md-flex justify-content-center align-items-center min-vh-50  mb-1 p-3">
+                <!-- Login Container  -->
+                <div
+                    class="row border rounded-5 p-3 bg-white min-vh-50 shadow box-area">
+                    <!-- Left Box  -->
+                    <div
+                        class="col-md-6
+                     rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
+                        <div class="featured-image mb-5">
+                            <img src="images/images (2).png"
+                                class="img-fluid"
+                                style="width: 100px;">
+                        </div>
+                        <p class="text-white fs-2">Be
+                            Verified</p>
+                        <small class="text-dark text-wrap text-center"
+                            style="width: 17rem;">Join
+                            Reading Books on this platform</small>
+                    </div>
+
+                    <!-- Right Box -->
+                    <div class="col-md-6 right-box">
+                        <div class="row align-items-center">
+                            <div class="header-text mb-1">
+                                <h2>Hello, User</h2>
+                                <p>We are happy to have you back.</p>
+                            </div>
+                            <div class="input-group mb-1">
+                                <input type="text"
+                                    class="form-control form-control-lg bg-light fs-6"
+                                    placeholder="Email address">
+                            </div>
+                            <div class="input-group mb-1">
+                                <input type="password"
+                                    class="form-control form-control-lg bg-light fs-6"
+                                    placeholder="password">
+                            </div>
+                            <div
+                                class="input-group mb-5 d-flex justify-content-between mb-1">
+                                <div class="form-check">
+                                    <input type="checkbox"
+                                        class="form-check-input"
+                                        id="formCheck">
+                                    <label for="formCheck"
+                                        class="form-check-label text-secondary mb-1"><small>Remember
+                                            Me</small></label>
+                                </div>
+                                <div class="forgot mb-1">
+                                    <small><a href="#">Forgot
+                                            password?</a></small>
+                                </div>
+                            </div>
+                            <div class="input-group mb-1">
+                                <button
+                                    class="btn btn-lg btn-primary w-100 fs-6">Login</button>
+                            </div>
+                            <div class="input-group mb-1">
+                                <button
+                                    class="btn btn-lg btn-primary w-100 fs-6 mb-1"><img
+                                        src="images/google.png"
+                                        style="width: 20px;"
+                                        class="me-2">
+                                    <small>Sign In With Google</small>
+                                </button>
+                            </div>
+                            <div class="row">
+                                <small>Don't have account? <a
+                                        href="./signup.html">Sign
+                                        Up</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- reviews -->
+
+        <div class="reviews">
+            <h1 class="p-3 ms-2 text-center mb-1">Reviews</h1>
+            <div
+                class="review_box mb-1 mx-auto p-2 gap-3"
+                style="display: flex;justify-content: center;align-items: center;">
+
+                <div class="review_card p-3 ms-2 align-items-center rounded-5"
+                    style="border: 3px solid #6b8181; box-shadow: #404b4b;">
+                    <div class="card_top align-items-center">
+                        <img class="mx-auto p-3 border-light rounded-circle"
+                            style="width: 150px; border-radius: 50%;"
+                            src="images/review-1.jpeg"> <br>
+                        <h3
+                            class="align-items-center ms-2 p-1 text-success">John
+                            Doe</h3>
+                    </div>
+                    <div class="card_bottom ms-2 p-2">
+                        <p class="mb-1 p-1 text-secondary"
+                            style="text-align: center;">
+                            Thank you very much for the
+                            book. I am very happy to have
+                            it. I will read it with great joy
+                            and pleasure. I am very grateful to you.
+                        </p>
+                        <a href="#"
+                            class="btn btn-outline-secondary p-2 ms-2 bg-warning text-white rounded-3">Read
+                            More</a>
+                    </div>
+                    <div class="review_icon p-2 ms-2 align-items-center mb-1">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+                <div class="review_card p-3 ms-2 align-items-center rounded-5"
+                    style="border: 3px solid #6b8181; box-shadow: #404b4b;">
+                    <div class="card_top align-items-center">
+                        <img class="mx-auto p-3 border-light rounded-circle"
+                            style="width: 150px; border-radius: 50%;"
+                            src="images/review-2.jpeg"> <br>
+                        <h3
+                            class="align-items-center ms-2 p-1 text-success">John
+                            Doe</h3>
+                    </div>
+                    <div class="card_bottom ms-2 p-2">
+                        <p class="mb-1 p-1 text-secondary"
+                            style="text-align: center;">
+                            Thank you very much for your working hard.It is
+                            really good for every one. I will buy your package
+                            more and more !
+                        </p>
+                        <a href="#"
+                            class="btn btn-outline-secondary p-2 ms-2 bg-warning text-white rounded-3">Read
+                            More</a>
+                    </div>
+                    <div class="review_icon p-2 ms-2 align-items-center mb-1">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+                <div class="review_card p-3 ms-2 align-items-center rounded-5"
+                    style="border: 3px solid #6b8181; box-shadow: #404b4b;">
+                    <div class="card_top align-items-center">
+                        <img class="mx-auto p-3 border-light rounded-circle"
+                            style="width: 150px; border-radius: 50%;"
+                            src="images/review-3.jpeg"> <br>
+                        <h3
+                            class="align-items-center ms-2 p-1 text-success">John
+                            Doe</h3>
+                    </div>
+                    <div class="card_bottom ms-2 p-2">
+                        <p class="mb-1 p-1 text-secondary"
+                            style="text-align: center;">
+                            This transition maintains the formal tone of the
+                            original burmese while conveying both the ease of
+                            reading and the speaker's thankfulness.
+                        </p>
+                        <a href="#"
+                            class="btn btn-outline-secondary p-2 ms-2 bg-warning text-white rounded-3">Read
+                            More</a>
+                    </div>
+                    <div class="review_icon p-2 ms-2 align-items-center mb-1">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer>
+            <div class="footer_main ms-2 p-3 ">
+
+                <div class="tag p-2">
+                    <img id="#" src="images/book-logo-3.png" alt>
+                    <p class="text-dark p-2 mb-1">
+                        Books will take you to places you've never
+                        seen
+                        before.
+                        Each page has something to learn.funny There
+                        may
+                        be
+                        songs.
+                        Grab a book from the bookshelf today and
+                        begin
+                        the
+                        joy
+                        of reading.
+                    </p>
+                </div>
+
+                <div class="tag p-2">
+                    <h1>Quick Link</h1>
+                    <a href="#">Home</a>
+                    <a href="#">New Books</a>
+                    <a href="#">Book</a>
+                    <a href="#">Ebook</a>
+                    <a href="#">About</a>
+                </div>
+
+                <div class="tag p-2">
+                    <h1>Contact Info</h1>
+                    <a href="#"><i
+                            class="fa-solid fa-phone ms-2 p-2"></i>+959751967071</a>
+                    <a href="#"><i
+                            class="fa-solid fa-envelope ms-2 p-2"></i>ni8606106@gmail.com</a>
+                </div>
+
+                <div class="tag p-2">
+                    <h1>Follow Us</h1>
+                    <div class="social_link">
+                        <i
+                            class="fa-brands fa-facebook-f bg-white p-2 rounded-circle"></i>
+                        <i
+                            class="fa-brands fa-instagram bg-white p-2 rounded-3"></i>
+                        <i
+                            class="fa-brands fa-twitter bg-white p-2 rounded-circle"></i>
+                        <i
+                            class="fa-brands fa-linkedin-in bg-white p-2 border-dark rounded-3"></i>
+                    </div>
+                </div>
+
+                <div class="tag p-2">
+                    <h1>Newsletter</h1>
+                    <div class="search_bar">
+                        <input type="text"
+                            placeholder="You email id here">
+                        <button
+                            type="submit p-3 rounded-5">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <p class="end p-1 text-center mb-1">
+                Design By_Ni Lar. &copy; 2025 Book. All rights
+                reserved.
+                <span>
+                    <i
+                        class="fa-solid fa-face-grin p-3 bg- mb-1 rounded-circle"></i>
+                </span>
+            </p>
+        </footer>
+
+        <!-- font awesome cdn js -->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+            integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"></script>
+
+        <!-- bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
