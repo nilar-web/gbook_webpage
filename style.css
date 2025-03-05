@@ -463,13 +463,13 @@ li a:hover {
     width: 100%;
     height: 100vh;
     padding: 50px 0;
+    margin: auto;
 }
 
 h1 {
     font-size: 50px;
     font-family: "Playfair Display SC", serif;
     text-align: center;
-    margin-top: 70px;
     padding: 30px 10px;
     position: relative;
     color: #033941;
@@ -508,6 +508,7 @@ h1 {
 
 .card img {
     width: 100%;
+    height: 250px;
     object-fit: cover;
     display: block;
     border-radius: 10px;
@@ -620,31 +621,6 @@ h1 {
     top: 25px;
 }
 
-@media screen and (max-width:768px) {
-    .about {
-        display: block;
-    }
-
-    .about_section h1 {
-        font-size: 35px;
-    }
-
-    .about_image {
-        width: 200px;
-        height: 250px;
-        margin: 50px -70px;
-    }
-
-    .about_tag {
-        width: 200px;
-        height: 250px;
-        margin: 50px -70px;
-    }
-
-    .about_btn {
-        font-size: 18px;
-    }
-}
 
 /* contact section */
 
@@ -672,8 +648,9 @@ h1 {
     margin: 10px 440px;
     padding: 8px;
     font-size: 8px;
-    color: white;
+    color: rgb(128, 119, 119);
     border: none;
+    outline: none;
     border-radius: 10px;
     box-shadow: 0px 0px 10px;
     transition: .1s ease;
@@ -710,23 +687,6 @@ h1 {
 
 /* responsive contact section */
 
-@media screen and (max-width:768px) {
-    .form h1 {
-        font-size: 35px;
-    }
-
-    .form input,
-    textarea {
-        margin-left: 50px;
-        width: 450px;
-    }
-
-    .form .form_btn {
-        margin-left: 14rem;
-        padding: 10px 25px;
-        font-size: 18px;
-    }
-}
 
 /* login */
 
@@ -751,20 +711,7 @@ h1 {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 768px) {
-    .box-area {
-        margin: 0 10px;
-    }
 
-    .left-box {
-        height: 100px;
-        overflow: hidden;
-    }
-
-    .right-box {
-        padding: 20px;
-    }
-}
 
 /* reviews */
 
