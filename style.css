@@ -784,7 +784,7 @@ h1 {
 /* reviews */
 
 .reviews-area {
-    height: 260vh;
+    height: 100vh;
     overflow: hidden;
     padding: 80px 10px;
     margin: 50px auto;
@@ -852,9 +852,6 @@ h1 {
     padding: 0 10px;
 }
 
-
-
-
 /* responsive review section */
 
 @media screen and (max-width:1024px) {
@@ -889,7 +886,7 @@ h1 {
 
 /* Footer Section */
 footer {
-    height: 80vh;
+    height: 160vh;
     background-color: #576666;
     margin: 50px auto;
 }
