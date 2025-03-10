@@ -6,11 +6,36 @@
 
 body {
     background-color: #f5f4f0e0;
-    line-height: 1.6;
+    line-height: 1.5;
+    display: block;
+}
+
+/* mobile */
+@media (min-width: 320px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        font-size: 14px;
+        display: block;
+        justify-content: center;
+        background-color: #95cee4;
+    }
+
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        font-size: 14px;
+        justify-content: center;
+        background-color: #f3f5f0;
+    }
+
 }
 
 header {
-    background-color: rgb(211, 233, 203);
+    background-color: #d3e9cb;
 }
 
 .header-font {
@@ -158,6 +183,13 @@ header div a:hover {
     }
 }
 
+@media screen and (max-with:750px) {
+    .navbar-brand {
+        width: 90%;
+        font-size: 12px;
+        padding: 0.3rem;
+    }
+}
 
 
 
@@ -214,10 +246,21 @@ header div a:hover {
     margin-bottom: 50px;
 }
 
-@media screen and (max-with:1000px) {
+@media screen and (max-with:1024px) {
+    .home-section {
+        max-width: 50%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 5px;
+    }
+
+
     .card-book .card {
         flex-direction: row;
         width: 450px;
+        font-size: 5px;
         justify-content: center;
     }
 }
@@ -226,6 +269,7 @@ header div a:hover {
 @media screen and (max-with:750px) {
     .card-book .card {
         justify-content: center;
+        flex-direction: column;
         width: 100%;
     }
 
@@ -376,6 +420,7 @@ header div a:hover {
     min-height: 100vh;
     padding: 10px 0;
     margin-top: 50px;
+    overflow: scroll;
 }
 
 .card-book h1 {
@@ -598,18 +643,20 @@ h1 {
 
 /* responsive ebook section */
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1024px) {
     .wrapper>.card_area {
         display: flexbox;
         float: none;
         width: 450px;
+        height: 550px;
         margin: 10px;
     }
 }
 
-@media screen and (max-width:750px) {
+@media screen and (min-width:320px) {
     .wrapper>.card_area {
         width: 100%;
+        flex-direction: column;
     }
 }
 
@@ -785,15 +832,15 @@ h1 {
 
 .reviews-area {
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
     padding: 80px 10px;
     margin: 50px auto;
-
+    display: flex;
 }
 
 .reviews-card {
+    width: 100%;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
     border-radius: 15px;
     gap: 5px;
     margin-bottom: 30px;
@@ -876,7 +923,7 @@ h1 {
 
     .review_card {
         height: 250vh;
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     .review_card h3 {
@@ -886,9 +933,10 @@ h1 {
 
 /* Footer Section */
 footer {
-    height: 160vh;
-    background-color: #576666;
-    margin: 50px auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #bdbbbb;
 }
 
 @media screen and(min-width:1024px) {
