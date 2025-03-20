@@ -63,7 +63,8 @@
                 <div class="container-fluid">
                     <a class="navbar-brand me-auto" href="#">G. Book <img
                             src="images/book-logo-3.png"
-                            height="30px"></a>
+                            height="30px">
+                    </a>
 
                     <div class="offcanvas offcanvas-end" tabindex="-1"
                         id="offcanvasNavbar"
@@ -134,8 +135,8 @@
         <!-- home section -->
         <section id="home" class="home-section">
 
-            <div class="container p-3 mb-3 mx-auto">
-                <div class="row mb-3">
+            <div class="container p-3 mb-1 mx-auto">
+                <div class="row mb-1">
                     <div class="col-md-8">
 
                         <div class="home-image">
@@ -219,18 +220,18 @@
                         </p>
                         <div class="text-center font ms-2 p-2 mb-1">
                             <i
-                                class="fa-brands fa-twitter p-2 bg-primary rounded-3"></i>
+                                class="fa-brands fa-twitter p-2 bg-white rounded-3"></i>
                             <i
-                                class="fa-brands fa-instagram p-2 bg-danger rounded-3"></i>
+                                class="fa-brands fa-instagram p-2 bg-white rounded-3"></i>
                             <i
-                                class="fa-brands fa-facebook-f p-2 bg-primary rounded-circle"></i>
+                                class="fa-brands fa-facebook-f p-2 bg-white rounded-circle"></i>
                             <i
-                                class="fa-brands fa-linkedin-in p-2 bg-info rounded-3"></i>
+                                class="fa-brands fa-linkedin-in p-2 bg-white rounded-3"></i>
                             <i
-                                class="fas fa-phone p-2 bg-success rounded-3"></i>
+                                class="fas fa-phone p-2 bg-white rounded-3"></i>
                             <br><br>
                             <a href="#"
-                                class="btn btn-outline-secondary ms-2 p-2 w-40 text-decoration-none mb-1">Book
+                                class="btn btn-outline-secondary ms-2 p-2 w-40 text-decoration-none mb-1 rounded-3">Book
                                 More
                             </a>
                         </div>
@@ -432,9 +433,9 @@
                     fosters
                     wisdom.
                 </p>
-                <div class="wrapper">
-                    <div class="card_area">
-                        <div class="card p-2">
+                <div class="wrapper grid">
+                    <div class="card_area row-cols-2 row-cols-lg-5 g-2">
+                        <div class="card g-col-4 p-2">
                             <img src="images/ebook (1).jpeg">
                             <div class="card_overlay">
                                 <h3>EBOOK</h3>
@@ -444,7 +445,7 @@
 
                             </div>
                         </div>
-                        <div class="card p-2">
+                        <div class="card g-col-4 p-2">
                             <img src="images/ebook (2).jpeg">
                             <div class="card_overlay">
                                 <h3>EBOOK</h3>
@@ -454,7 +455,7 @@
                                     PDF</a>
                             </div>
                         </div>
-                        <div class="card p-2">
+                        <div class="card g-col-4 p-2">
                             <img src="images/ebook (3).jpeg">
                             <div class="card_overlay">
                                 <h3>EBOOK</h3>
@@ -464,7 +465,7 @@
                                     PDF</a>
                             </div>
                         </div>
-                        <div class="card p-2">
+                        <div class="card g-col-4 p-2">
                             <img src="images/ebook (4).jpeg">
                             <div class="card_overlay">
                                 <h3>EBOOK</h3>
@@ -474,7 +475,7 @@
                                     PDF</a>
                             </div>
                         </div>
-                        <div class="card p-2">
+                        <div class="card g-col-4 p-2">
                             <img src="images/ebook (5).webp">
                             <div class="card_overlay">
                                 <h3>EBOOK</h3>
@@ -529,7 +530,7 @@
 
         <!-- contact section -->
         <section id="contact">
-            <div class="form mx-auto p-3 mt-3">
+            <div class="form mx-auto p-3">
                 <h1 class="mb-1">Contact <span>Me</span></h1>
                 <form action="#home">
                     <input type="text" name="name" class="bg-light fs-6"
@@ -555,13 +556,13 @@
         <!-- login section -->
         <section id="login">
             <div
-                class="container d-md-flex justify-content-center align-items-center min-vh-50  mb-1 p-3">
+                class="container d-md-flex justify-content-center align-items-center min-vh-50 bs-secondary-bg mb-1 p-3">
                 <!-- Login Container  -->
                 <div
-                    class="row border rounded-5 p-1 bg-white min-vh-50 shadow box-area">
+                    class="row border rounded-5 p-1 bs-secondary-bg shadow box-area">
                     <!-- Left Box  -->
                     <div
-                        class="col-md-6
+                        class="col-md-6 min-vh-25
                      rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
                         <div class="featured-image mb-5">
                             <img src="images/images (2).png"
@@ -576,7 +577,7 @@
                     </div>
 
                     <!-- Right Box -->
-                    <div class="col-md-6 right-box">
+                    <div class="col-md-6 min-vh-25 right-box">
                         <div class="row align-items-center">
                             <div class="header-text mb-1">
                                 <h2>Hello, User</h2>
@@ -630,8 +631,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- reviews -->
 
         <div class="reviews-area">
             <div class="container">
@@ -711,7 +710,7 @@
 
         <!-- Footer section -->
 
-        <footer>
+        <div class="footer">
 
             <div class="container text-center text-left">
 
@@ -750,7 +749,7 @@
                         </p>
                     </div>
 
-                    <div class="col-md-4 col-lg-3 col-xl-3 m mt-1">
+                    <div class="col-md-3 col-lg-3 col-xl-3 m mt-1">
                         <h5
                             class="text-uppercase mb-4 font-weight-bold text-success">Contact
                         </h5>
@@ -781,37 +780,42 @@
                         <div class="text-center text-md-right">
                             <ul class="list-unstyled list-inline">
 
-                                <li class="list-inline-item">
+                                <li
+                                    class="list-inline-item shadow p-2 rounded-2">
                                     <a href="#"
-                                        class="btn-floating btn-sm text-primary"
+                                        class="btn-floating btn-sm text-dark"
                                         style="font-size: 23px;">
                                         <i class="fab fa-facebook"></i>
                                     </a>
                                 </li>
-                                <li class="list-inline-item">
+                                <li
+                                    class="list-inline-item shadow p-2 rounded-2">
                                     <a href="#"
-                                        class="btn-floating btn-sm text-primary"
+                                        class="btn-floating btn-sm text-dark"
                                         style="font-size: 23px;">
                                         <i class="fab fa-twitter"></i>
                                     </a>
                                 </li>
-                                <li class="list-inline-item">
+                                <li
+                                    class="list-inline-item shadow p-2 rounded-2">
                                     <a href="#"
                                         class="btn-floating btn-sm text-dark"
                                         style="font-size: 23px;">
                                         <i class="fab fa-google-plus"></i>
                                     </a>
                                 </li>
-                                <li class="list-inline-item">
+                                <li
+                                    class="list-inline-item shadow p-2 rounded-2">
                                     <a href="#"
-                                        class="btn-floating btn-sm text-danger"
+                                        class="btn-floating btn-sm text-dark"
                                         style="font-size: 23px;">
                                         <i class="fab fa-linkedin-in"></i>
                                     </a>
                                 </li>
-                                <li class="list-inline-item">
+                                <li
+                                    class="list-inline-item shadow p-2 rounded-2">
                                     <a href="#"
-                                        class="btn-floating btn-sm text-danger"
+                                        class="btn-floating btn-sm text-dark"
                                         style="font-size: 23px;">
                                         <i class="fab fa-youtube"></i>
                                     </a>
@@ -822,7 +826,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
 
         <!-- font awesome cdn js -->
         <script

@@ -40,12 +40,21 @@
             box-sizing: border-box;
             font-family: 'Poppins', sans-serif;
         }
+        body{
+            background: #ececec;
+            background-size: cover;        
+        }
+
         .wrapper {
+            display: flex;
+            margin: auto;
             background: #ececec;
             padding: 0 20px 0 20px;
         }
 
-        .main {            
+        .main {
+            flex-basis: 30%;
+            margin: auto;            
             display: flex;
             justify-content: center;
             align-items: center;
@@ -54,6 +63,7 @@
         .row {
             width: 900px;
             height: 550px;
+            border: 1px solid #fff;
             border-radius: 10px;
             background: #fff;
             box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
@@ -215,7 +225,7 @@
     </head>
     <body>
 
-        <div class="wrapper bg-lg-secondary">
+        <div class="wrapper bg-lg-secondary min-vh-50 ">
             <div class="container main">
                 <div id="signup" class="row bg-lg-secondary rounded-5">
                     <div class="col-md-6 slide-image rounded-5">
