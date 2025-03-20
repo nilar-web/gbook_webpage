@@ -71,8 +71,9 @@ header h2 {
 }
 
 header span {
-    color: olivedrab;
-    font-weight: bolder;
+    color: #9b8e1d;
+    font-weight: 500;
+    font-size: 45px;
 }
 
 header p {
@@ -215,14 +216,21 @@ header div a:hover {
 }
 
 .home-section h1 span {
-    color: olivedrab;
-    font-weight: bolder;
+    color: #9b8e1d;
+    font-weight: bold;
     letter-spacing: 2px;
+    font-size: 30px;
 }
 
 .home-section .home-image img {
     width: 100%;
     border-radius: 30px;
+}
+
+.home-slide p {
+    font-size: 20px;
+    color: #033941;
+    margin: 10px 0;
 }
 
 .home-slide i {
@@ -295,7 +303,6 @@ header div a:hover {
 
 .new_books p {
     font-size: 18px;
-    color: #75740d;
     text-align: center;
 }
 
@@ -675,6 +682,7 @@ h1 {
 .about .about_tag p {
     line-height: 22px;
     width: 550px;
+    font-size: 16px;
     text-align: justify;
     margin-bottom: 15px;
     color: #033941;
@@ -827,7 +835,8 @@ h1 {
 
 .reviews-area {
     height: 100vh;
-    overflow: auto;
+    overflow: hidden;
+    background-color: #f4fafc;
     padding: 30px 30px;
     display: flex;
 
